@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct EnterTextView: View {
+    @State private var response: String = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Describe your feeling or mood")
+        
+        VStack {
+            TextField("enter text here", text: $response)
+            Button {
+                
+            } label: {
+                Text("continue")
+            }
+        }
+        
+        VStack {
+            Text("It sounds like you are feeling...")
+        }
     }
 }
 

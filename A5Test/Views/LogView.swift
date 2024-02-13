@@ -8,18 +8,29 @@
 import SwiftUI
 
 struct LogView: View {
+    
     var body: some View {
+        
         Text("Log an Emotion or Mood")
             .font(.headline)
         VStack {
             Button {
+                
             } label: {
                 Text("emotion")
             }
             Button {
+                
             } label: {
                 Text("mood")
             }
+            
+            NavigationView {
+                NavigationLink(destination: EnterTextView()) {
+                    Text("next")
+                }
+            }
+
         }
     }
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C5E28EB72B7BD045006130B3 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E28EB62B7BD045006130B3 /* LogView.swift */; };
+		C5E28EB92B7BD2E2006130B3 /* EnterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E28EB82B7BD2E2006130B3 /* EnterTextView.swift */; };
 		C5EAF2322B619F090005882B /* A5TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EAF2312B619F090005882B /* A5TestApp.swift */; };
 		C5EAF2342B619F090005882B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EAF2332B619F090005882B /* ContentView.swift */; };
 		C5EAF2362B619F0B0005882B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5EAF2352B619F0B0005882B /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		C5E28EB62B7BD045006130B3 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		C5E28EB82B7BD2E2006130B3 /* EnterTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterTextView.swift; sourceTree = "<group>"; };
 		C5EAF22E2B619F090005882B /* A5Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A5Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5EAF2312B619F090005882B /* A5TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A5TestApp.swift; sourceTree = "<group>"; };
 		C5EAF2332B619F090005882B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				C5E28EB62B7BD045006130B3 /* LogView.swift */,
+				C5E28EB82B7BD2E2006130B3 /* EnterTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5EAF2342B619F090005882B /* ContentView.swift in Sources */,
+				C5E28EB92B7BD2E2006130B3 /* EnterTextView.swift in Sources */,
 				C5E28EB72B7BD045006130B3 /* LogView.swift in Sources */,
 				C5EAF25C2B619FA50005882B /* ViewModel.swift in Sources */,
 				C5EAF2322B619F090005882B /* A5TestApp.swift in Sources */,
