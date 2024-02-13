@@ -12,8 +12,13 @@ struct LogView: View {
         Text("Log an Emotion or Mood")
             .font(.headline)
         VStack {
-            Button() {
-                
+            Button {
+            } label: {
+                Text("emotion")
+            }
+            Button {
+            } label: {
+                Text("mood")
             }
         }
     }
