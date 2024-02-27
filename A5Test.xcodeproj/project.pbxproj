@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C52FD1E62B86596800CCCA59 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52FD1E52B86596800CCCA59 /* FlowerView.swift */; };
 		C5E28EB72B7BD045006130B3 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E28EB62B7BD045006130B3 /* LogView.swift */; };
 		C5E28EB92B7BD2E2006130B3 /* EnterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E28EB82B7BD2E2006130B3 /* EnterTextView.swift */; };
+		C5E8F5372B7D33E100D7DEA4 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E8F5362B7D33E100D7DEA4 /* AnalysisView.swift */; };
 		C5EAF2322B619F090005882B /* A5TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EAF2312B619F090005882B /* A5TestApp.swift */; };
 		C5EAF2342B619F090005882B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EAF2332B619F090005882B /* ContentView.swift */; };
 		C5EAF2362B619F0B0005882B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5EAF2352B619F0B0005882B /* Assets.xcassets */; };
@@ -37,8 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C52FD1E52B86596800CCCA59 /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
 		C5E28EB62B7BD045006130B3 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
 		C5E28EB82B7BD2E2006130B3 /* EnterTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterTextView.swift; sourceTree = "<group>"; };
+		C5E8F5362B7D33E100D7DEA4 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
 		C5EAF22E2B619F090005882B /* A5Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A5Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5EAF2312B619F090005882B /* A5TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A5TestApp.swift; sourceTree = "<group>"; };
 		C5EAF2332B619F090005882B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,7 +53,7 @@
 		C5EAF2482B619F0B0005882B /* A5TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A5TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5EAF24C2B619F0B0005882B /* A5TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A5TestUITests.swift; sourceTree = "<group>"; };
 		C5EAF24E2B619F0B0005882B /* A5TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A5TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C5EAF25B2B619FA50005882B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C5EAF25B2B619FA50005882B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = ../ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				C5E28EB62B7BD045006130B3 /* LogView.swift */,
+				C5E8F5362B7D33E100D7DEA4 /* AnalysisView.swift */,
 				C5E28EB82B7BD2E2006130B3 /* EnterTextView.swift */,
+				C52FD1E52B86596800CCCA59 /* FlowerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 		C5E28EB52B7BCFFD006130B3 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				C5EAF25B2B619FA50005882B /* ViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -124,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				C5EAF2312B619F090005882B /* A5TestApp.swift */,
-				C5EAF25B2B619FA50005882B /* ViewModel.swift */,
 				C5E28EB52B7BCFFD006130B3 /* ViewModels */,
 				C5E28EB42B7BCFF7006130B3 /* Models */,
 				C5E28EB32B7BCFEE006130B3 /* Views */,
@@ -294,6 +300,8 @@
 				C5E28EB92B7BD2E2006130B3 /* EnterTextView.swift in Sources */,
 				C5E28EB72B7BD045006130B3 /* LogView.swift in Sources */,
 				C5EAF25C2B619FA50005882B /* ViewModel.swift in Sources */,
+				C5E8F5372B7D33E100D7DEA4 /* AnalysisView.swift in Sources */,
+				C52FD1E62B86596800CCCA59 /* FlowerView.swift in Sources */,
 				C5EAF2322B619F090005882B /* A5TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

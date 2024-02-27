@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+class MoodMirrorViewModel: ObservableObject {
+    @Published var showAnalysisView = false
+    
+}

@@ -11,7 +11,8 @@ import SwiftUI
 struct A5TestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LogView()
+                .environmentObject(TextAnalysisLogic())
         }
     }
 }
